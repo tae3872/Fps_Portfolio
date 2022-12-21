@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281298b291f6d044da4ba96178e905e3, type: 3}
+  m_Name: Magnum
+  m_EditorClassIdentifier: 
+  isQuest: 0
+  number: 6
+  name: Magnum
+  description: is Magnum
+  iconImage: {fileID: 21300000, guid: 9b5f1790adf902c4ea83d06364a3835f, type: 3}
+  itemType: 0
+  ShopPrice: 1000
+  SellPrice: 500
+  equipType: 1
+  attack: 35
+  defense: 0

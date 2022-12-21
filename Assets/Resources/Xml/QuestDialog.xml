@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<quest>
+		<number>0</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>좀비들이 내 가족을..</sentence>
+	</quest>
+	<quest>
+		<number>1</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>사실 난 결혼한 적이 없다네..</sentence>
+	</quest>
+	<quest>
+		<number>1</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>자네 취직은 했는가?</sentence>
+	</quest>
+	<quest>
+		<number>2</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>아내도.. 아이들도.. 모두 잃었다네</sentence>
+	</quest>
+	<quest>
+		<number>3</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>밖에 좀비가 무서워 집에 못가고 있다네</sentence>
+	</quest>
+	<quest>
+		<number>3</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>사실 난 집이없다네..</sentence>
+	</quest>
+	<quest>
+		<number>4</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>그래도 좀비를 잡아주겠나?</sentence>
+	</quest>
+	<quest>
+		<number>5</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>이제 안심하고 돌아다닐수 있겠군 하하!</sentence>
+	</quest>
+	<quest>
+		<number>6</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>본부에 전해줄 탄약이 부족하다네..</sentence>
+	</quest>
+	<quest>
+		<number>6</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>좀비를 잡으면 몸에 박혀있는 탄약을 뱉어낸다네..</sentence>
+	</quest>
+	<quest>
+		<number>7</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>뭘 꾸물거리나? 빨리 구해오게!</sentence>
+	</quest>
+	<quest>
+		<number>8</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>사실 본부는 존재하지않는다네.. 고생했구만 하하!</sentence>
+	</quest>
+	<quest>
+		<number>9</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>좀비보다 더한 녀석이 나타났다네..</sentence>
+	</quest>
+	<quest>
+		<number>9</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>뮤턴트를 잡아줄수 있겠나?</sentence>
+	</quest>
+	<quest>
+		<number>10</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>뭘 꾸물거리나? 빨리 잡아주시게!</sentence>
+	</quest>
+	<quest>
+		<number>11</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>뮤턴트를 잡다니.. 자네를 인정할 수 밖에 없겠군..</sentence>
+	</quest>
+	<quest>
+		<number>12</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>뮤턴트의 눈알조각을 찾아오시게</sentence>
+	</quest>
+	<quest>
+		<number>12</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>잘 찾아보면 있을거라네..</sentence>
+	</quest>
+	<quest>
+		<number>13</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>왼쪽, 오른쪽 둘다 필요하다구!</sentence>
+	</quest>
+	<quest>
+		<number>14</number>
+		<character>1</character>
+		<name>Peasant</name>
+		<sentence>고생했네 젊은 친구. 다음여정을 응원하지!</sentence>
+	</quest>
+</root>

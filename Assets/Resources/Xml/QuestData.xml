@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<quest>
+		<number>0</number>
+		<npc>0</npc>
+		<name>좀비를 잡아라</name>
+		<description>좀비 10마리 잡기</description>
+		<dialogIndex>3</dialogIndex>
+		<level>1</level>
+		<questType>0</questType>
+		<goalIndex>0</goalIndex>
+		<goalAmount>10</goalAmount>
+		<gold>500</gold>
+		<exp>150</exp>
+		<item>0</item>
+	</quest>
+	<quest>
+		<number>1</number>
+		<npc>0</npc>
+		<name>탄약이 필요해</name>
+		<description>탄박스 5개수집</description>
+		<dialogIndex>6</dialogIndex>
+		<level>2</level>
+		<questType>1</questType>
+		<goalIndex>0</goalIndex>
+		<goalAmount>5</goalAmount>
+		<gold>750</gold>
+		<exp>250</exp>
+		<item>1</item>
+	</quest>
+	<quest>
+		<number>2</number>
+		<npc>0</npc>
+		<name>좀비를 잡아라</name>
+		<description>좀비 30마리 잡기</description>
+		<dialogIndex>3</dialogIndex>
+		<level>1</level>
+		<questType>0</questType>
+		<goalIndex>0</goalIndex>
+		<goalAmount>30</goalAmount>
+		<gold>1000</gold>
+		<exp>350</exp>
+		<item>2</item>
+	</quest>
+	<quest>
+		<number>3</number>
+		<npc>1</npc>
+		<name>보스를 잡아라</name>
+		<description>뮤턴트 1마리 잡기</description>
+		<dialogIndex>9</dialogIndex>
+		<level>4</level>
+		<questType>0</questType>
+		<goalIndex>0</goalIndex>
+		<goalAmount>1</goalAmount>
+		<gold>1500</gold>
+		<exp>500</exp>
+		<item>0</item>
+	</quest>
+	<quest>
+		<number>4</number>
+		<npc>1</npc>
+		<name>퍼즐모으기</name>
+		<description>왼쪽,오른쪽 EyePieces</description>
+		<dialogIndex>12</dialogIndex>
+		<level>5</level>
+		<questType>1</questType>
+		<goalIndex>0</goalIndex>
+		<goalAmount>2</goalAmount>
+		<gold>500</gold>
+		<exp>250</exp>
+		<item>2</item>
+	</quest>
+</root>

@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8171650805684872193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8171650805684872199}
+  - component: {fileID: 8171650805684872192}
+  - component: {fileID: 8171650805684872198}
+  - component: {fileID: 8171650805684872197}
+  - component: {fileID: 2113116602}
+  - component: {fileID: 1692275817}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8171650805684872199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8171650805684872192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dbba1a18b906f47a9e43acf45342e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAttack: 10
+  startDefense: 10
+  health: 0
+  maxHealth: 100
+  isDeath: 0
+  sceneNum: 0
+  currentExp: 0
+  level: 0
+  gold: 0
+  weaponType: 0
+  ammoCount: 30
+  grenadeNum: 5
+  havekeys: 
+--- !u!114 &8171650805684872198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f774e9ee5a6de548b4224c99d27ce89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  invenSize: 16
+--- !u!114 &8171650805684872197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a29b29f400b864a9e931c48f1d9cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+--- !u!114 &2113116602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5941ea1a9165c4bb9c84b04e619b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XmlFile: Xml/QuestData
+  playerQuests: []
+  currentQuest:
+    number: 0
+    npc: 0
+    name: 
+    description: 
+    dialogIndex: 0
+    goal:
+      questState: 0
+      questType: 0
+      reachedAmount: 0
+      currentAmount: 0
+    rewardGold: 0
+    rewardExp: 0
+    rewardItem: {fileID: 0}
+  textBox: {fileID: 0}
+  rewardItems:
+  - {fileID: 11400000, guid: 2087877a1e5665d45889f27c235bda9f, type: 2}
+  - {fileID: 11400000, guid: f23354221b88a814b920e9ca4f5ce1e2, type: 2}
+  - {fileID: 11400000, guid: e19be75a428c9474b88fdf2e3df17764, type: 2}
+--- !u!114 &1692275817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171650805684872193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656fbddcdd9b398408796017bcc5aa6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopItems:
+  - {fileID: 11400000, guid: c6a69cdd752cca74baf867fcd0f41e6c, type: 2}
+  - {fileID: 11400000, guid: 3bb1e2e3ae6d3da4cb16c7833457c251, type: 2}
+  - {fileID: 11400000, guid: 36004465c49df044e8e997435eb392ac, type: 2}
+  - {fileID: 11400000, guid: 2087877a1e5665d45889f27c235bda9f, type: 2}
+  - {fileID: 11400000, guid: f23354221b88a814b920e9ca4f5ce1e2, type: 2}
