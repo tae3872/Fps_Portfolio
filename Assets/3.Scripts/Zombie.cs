@@ -46,7 +46,7 @@ public class Zombie : Enemy
         {
             SetState(EnemyState.Chase);
         }
-        else if (distance >= 20)
+        else if (distance > 20)
         {
             GoBack();
         }

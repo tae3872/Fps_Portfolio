@@ -16,7 +16,7 @@ public class BZJumpScareTrigger : MonoBehaviour
         AudioManager.instance.Play("DoorBang");
         this.GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(1f);
-        AudioManager.instance.PlayBgm("JumpscareTune");
+        //AudioManager.instance.PlayBgm("JumpscareTune");
     }
     
 }

@@ -23,7 +23,7 @@ public class ShopUI : MonoBehaviour
     void Start()
     {
         shopManager = ShopManager.instance;
-        shopManager.selectCallBack += SelectSlot;
+        shopManager.selectCallBack = SelectSlot;
         itemSlots = shopItems.GetComponentsInChildren<ShopSlot>();
         SetShopSlots();
         ResetItemInfoUI();

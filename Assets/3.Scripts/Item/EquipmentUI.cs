@@ -22,8 +22,8 @@ public class EquipmentUI : MonoBehaviour
     void Start()
     {
         equipment = Equipment.instance;
-        equipment.equipmentDelegate += UpdateEquipment;
-        equipment.selectCallback += SelectSlot;
+        equipment.equipmentDelegate = UpdateEquipment;
+        equipment.selectCallback = SelectSlot;
         invenUI = this.GetComponent<InventoryUI>();
         itemSlots = equipItems.GetComponentsInChildren<EquipSlot>();
         InitEquip();
@@ -32,11 +32,8 @@ public class EquipmentUI : MonoBehaviour
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
-            if (true)
-            {
-                itemSlots[i].ResetEquipSlot();
-                itemSlots[i].SetEquipSlot(equipment.items[i]);
-            }
+            itemSlots[i].ResetEquipSlot();
+            itemSlots[i].SetEquipSlot(equipment.items[i]);
         }
     }
     void Update()
@@ -90,6 +87,16 @@ public class EquipmentUI : MonoBehaviour
         }
         itemSlots[index].ResetEquipSlot();
         itemSlots[index].SetEquipSlot(newItem);
+        if (oldItem != null)
+        {
+            PlayerStats.instance.attack.RemoveValue(oldItem.attack);
+            PlayerStats.instance.defense.RemoveValue(oldItem.defense);
+        }
+        if (newItem != null)
+        {
+            PlayerStats.instance.attack.AddValue(newItem.attack);
+            PlayerStats.instance.defense.AddValue(newItem.defense);
+        }
     }
     public void SelectSlot(int index)
     {

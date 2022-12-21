@@ -7,9 +7,9 @@ public class Spawner : MonoBehaviour
     public GameObject zombiePrefab;
     public Transform[] spawnPoints;
     public static int zombieNum = 0;
-    public int spawnNum = 20;
+    public static int spawnNum = 20;
     float countdown = 0;
-    public int coolTime = 1;
+    public float coolTime = 1;
     void Start()
     {
         zombiePrefab = Resources.Load<GameObject>("Prefabs/Zombie1");

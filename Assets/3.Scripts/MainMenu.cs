@@ -24,10 +24,12 @@ public class MainMenu : MonoBehaviour
     {
         InitGameData();
         AudioManager.instance.PlayBgm("MenuMusic");
-        if (PlayerStats.instance.sceneNum > 0)
+        if (PlayerStats.instance.sceneNum > 1)
         {
             loadGame.SetActive(true);
         }
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
     void Update()
     {

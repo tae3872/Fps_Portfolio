@@ -28,7 +28,7 @@ public class PlayerStats : CharacterStats
     }
     void Start()
     {
-        Equipment.instance.equipmentDelegate += OnEquipItemChanged;
+        //Equipment.instance.equipmentDelegate += OnEquipItemChanged;
         NewStartGameData();
     }
     public void InitPlayerStats(PlayData pData)

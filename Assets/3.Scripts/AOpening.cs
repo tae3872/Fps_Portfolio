@@ -19,7 +19,7 @@ public class AOpening : MonoBehaviour
     }
     IEnumerator SequencePlayer()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             yield return new WaitForSeconds(sceneFader.fTime);
             textBox.text = "...where am I?";
@@ -31,7 +31,7 @@ public class AOpening : MonoBehaviour
             textBox.text = "";
             player.GetComponent<FirstPersonController>().enabled = true;
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 1)
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             yield return new WaitForSeconds(sceneFader.fTime);
             player.GetComponent<FirstPersonController>().enabled = true;

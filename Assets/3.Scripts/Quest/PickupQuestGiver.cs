@@ -38,6 +38,18 @@ public class PickupQuestGiver : PickupNpc
     }
     void CompleteQuest()
     {
+        if (questManager.currentQuest.number==0)
+        {
+            Spawner.spawnNum = 50;
+        }
+        else if (questManager.currentQuest.number == 1)
+        {
+            Spawner.spawnNum = 100;
+        }
+        else if (questManager.currentQuest.number == 2)
+        {
+            Spawner.spawnNum = 150;
+        }
         dialogUI.StartDialog(npcQuests[0].dialogIndex + 2);
         npcQuests.RemoveAt(0);
         questManager.RewardQuest();
